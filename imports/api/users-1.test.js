@@ -1,8 +1,8 @@
 import expect from 'expect';
 
-import {validateNewUser} from "../imports/api/users";
+import {validateNewUser} from "./users";
 
-describe('users', function () {
+describe('users-1', function () {
 
   it('should allow valid email address', function () {
     const testUser = {
