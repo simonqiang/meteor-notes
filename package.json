@@ -1,5 +1,5 @@
 {
-  "name": "short-link",
+  "name": "meteor-boilerplate",
   "private": true,
   "scripts": {
     "start": "meteor run",
@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.3.4",
+    "bcrypt": "^3.0.7",
     "meteor-node-stubs": "^0.4.1",
     "moment": "^2.24.0",
     "prop-types": "^15.7.2",
