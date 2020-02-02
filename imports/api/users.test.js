@@ -1,21 +1,24 @@
 import expect from 'expect';
 
 import {validateNewUser} from "./users";
+import {Meteor} from "meteor/meteor";
 
-describe('users', function () {
+if(Meteor.isServer) {
+  describe('users', function () {
 
-  it('should allow invalid email address', function () {
-    const testUser = {
-      emails: [
-        {
-          address: 'simonqiang@',
-        }
-      ]
-    };
+    it('should allow invalid email address', function () {
+      const testUser = {
+        emails: [
+          {
+            address: 'simonqiang@',
+          }
+        ]
+      };
 
-    expect(() => {
-      validateNewUser(testUser)
-    }).toThrow(Error)
+      expect(() => {
+        validateNewUser(testUser)
+      }).toThrow(Error)
+    });
+
   });
-
-});
+}
