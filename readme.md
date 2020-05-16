@@ -1,4 +1,4 @@
-# Boilerplate Meteor Project
+# Boilerplate Meteor Project Testing
 
 This include basic code
 
