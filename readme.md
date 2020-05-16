@@ -1,4 +1,4 @@
-# Boilerplate Meteor Project Testing
+# Boilerplate Meteor Project Testing release 1.0.0 fix
 
 This include basic code
 
